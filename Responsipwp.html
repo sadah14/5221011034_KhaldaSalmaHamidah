@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResponsiPWP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: blue;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            gap: 20px;
+            text-align: center;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline;
+            margin: 10px;
+        }
+
+        nav ul li a:hover{
+            background-color: burlywood;
+            color:black;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .profile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-left: 10px; 
+        }
+
+        .info {
+            text-align: left;
+            margin-left: 10px; 
+        }
+
+        .info p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portofolio</a></li>
+        </ul>
+        <a href="#">Login</a> <!-- Elemen 3 -->
+    </nav>
+    <div class="container">
+        <h1>My Profil</h1>
+        <div class="profile">
+            <div class="info"> 
+                <p>Nama     : Khalda Salma Hamidah</p>
+                <p>NPM      : 5221011034</p>
+                <p>Prodi    : Teknik Komputer</p>
+            </div>
+            <img src="c:\Users\LABKOM\Downloads\fotoku.jpg" alt="Profile Picture">
+        </div>
+    </div>
+</body>
+</html>
